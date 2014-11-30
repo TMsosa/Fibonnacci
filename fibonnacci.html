@@ -1,0 +1,21 @@
+<html>
+<body>
+<script>
+function fib(num) {
+  if (num == 0) {
+   return 0;
+ }
+
+  if (num == 1) {
+   return 1;
+ }
+ 
+ else {
+   return fib(num - 2) + fib(num - 1);
+ }
+}
+var num = prompt("enter number");
+console.log(fib(num));
+</script>
+</body>
+</html>
